@@ -1,0 +1,96 @@
+.tron-kedua {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffff;
+  margin-top: 50px;
+  padding-left: 50px;
+  gap: 20rem;
+}
+
+
+
+.tron-content2 h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4d4d4d;
+
+}
+
+.tron-content2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
+  margin-top: 35px;
+}
+
+.btn-register2 {
+  background-color: #28a745;
+  color: #fff;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  cursor: pointer;
+  font-size: medium;
+  border: none;
+  margin-top: 35px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+
+.btn-register2:hover {
+  background-color: #218838;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 500px 64px 230px;
+  margin: auto;
+  background-color: #f5f7fa;
+  align-items: flex-start;
+  width: 100%;
+  padding: 60px 80px;
+  box-sizing: border-box;
+
+}
+
+@media (max-width: 1024px) {
+  .tron-kedua {
+    padding: 80px 80px;
+    gap: 60px;
+  }
+
+  .tron-content2 h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tron-kedua {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 24px;
+    gap: 40px;
+  }
+
+  .tron-content2 {
+    max-width: 100%;
+  }
+
+  .tron-content2 h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .tron-content2 p {
+    font-size: 14px;
+  }
+
+  .btn-register2 {
+    margin-top: 25px;
+  }
+}

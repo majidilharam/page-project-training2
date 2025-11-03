@@ -1,0 +1,35 @@
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: #f9fafb;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.demo h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 76px;
+  color: #263238;
+  text-align: center;
+}
+
+.btn-demo {
+  background-color: #28a745;
+  color: #fff;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+  border: none;
+  margin-top: 35px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-demo:hover {
+  background-color: #218838;
+}

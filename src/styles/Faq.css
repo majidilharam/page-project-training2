@@ -1,0 +1,136 @@
+.customers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meet-customers {
+    color: #22c55e;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 28px;
+    padding-top: 18px
+}
+
+.meet-customers:hover {
+    text-decoration: underline;
+}
+
+.marketing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 144px 96px 144px;
+    text-align: center;
+}
+
+.marketing h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #4d4d4d;
+    font-weight: 600;
+}
+
+.marketing p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+.card2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.card-box2 {
+    background: #F5F7FA;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 100%;
+    margin-top: -100px;
+    min-height: 150px;
+}
+
+.card-box2 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #717171;
+}
+
+.readmore {
+    color: #22c55e;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.readmore:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .marketing {
+        padding: 40px 80px 80px 80px;
+    }
+
+    .marketing h1 {
+        font-size: 32px;
+    }
+
+    .cards {
+        gap: 15px;
+    }
+
+    .card2 {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .marketing {
+        padding: 40px 80px 80px 80px;
+    }
+
+    .marketing h1 {
+        font-size: 32px;
+    }
+
+    .cards {
+        gap: 15px;
+    }
+
+    .card2 {
+        flex-basis: 45%;
+    }
+}

@@ -1,0 +1,95 @@
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 96px 144px 96px 144px;
+  gap: 104px;
+  background-color: #f9fafb;
+}
+
+.tron-content {
+  max-width: 50%;
+}
+
+.tron-content h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #333;
+  line-height: 76px;
+}
+
+.tron-content h1 span {
+  color: #22c55e;
+}
+
+.tron-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #717171;
+}
+
+.btn-register {
+  background-color: #28a745;
+  color: #fff;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  cursor: pointer;
+  font-size: medium;
+  border: none;
+  margin-top: 35px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn-register:hover {
+  background-color: #218838;
+}
+
+.tron-content {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.tron-image {
+  max-width: 80%;
+}
+
+@media (max-width: 1024px) {
+  .container-1 {
+    padding: 80px 80px;
+    gap: 60px;
+  }
+
+  .tron-content h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container-1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 24px;
+    gap: 40px;
+  }
+
+  .tron-content {
+    max-width: 100%;
+  }
+
+  .tron-content h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .tron-content p {
+    font-size: 14px;
+  }
+
+  .btn-register {
+    margin-top: 25px;
+  }
+}
