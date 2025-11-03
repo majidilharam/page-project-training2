@@ -1,5 +1,5 @@
 import '../styles/Navbar.css'
-import logo from '../assets/logo/logo-diatas-.png'
+import logo from '../assets/logo/Logo-diatas.png'
 import { useState } from "react";
 
 
