@@ -1,6 +1,6 @@
-import icon1 from '../assets/icon/icon-1.png'
-import icon2 from '../assets/icon/icon-2.png'
-import icon3 from '../assets/icon/icon-3.png'
+import icon1 from '../assets/icon/Icon-1.png'
+import icon2 from '../assets/icon/Icon-2.png'
+import icon3 from '../assets/icon/Icon-3.png'
 
 
 

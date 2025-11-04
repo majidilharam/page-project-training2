@@ -1,11 +1,11 @@
 import icon1 from '../assets/icon/image-9.png'
 
-import logo1 from '../assets/logo/logo-(8).png'
-import logo2 from '../assets/logo/logo-(9).png'
-import logo3 from '../assets/logo/logo-(10).png'
-import logo4 from '../assets/logo/logo-(11).png'
-import logo5 from '../assets/logo/logo-(12).png'
-import logo6 from '../assets/logo/logo-(13).png'
+import logo1 from '../assets/logo/Logo-(8).png'
+import logo2 from '../assets/logo/Logo-(9).png'
+import logo3 from '../assets/logo/Logo-(10).png'
+import logo4 from '../assets/logo/Logo-(11).png'
+import logo5 from '../assets/logo/Logo-(12).png'
+import logo6 from '../assets/logo/Logo-(13).png'
 
 import '../styles/Tronkeempat.css'
 
