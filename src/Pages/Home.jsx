@@ -50,7 +50,6 @@ function Home() {
           </div>
         </div>
       </section>
-
       {/* community */}
       <section className="community">
         <div className="community-card">
@@ -67,16 +66,18 @@ function Home() {
       {/* testimonial */}
       <section id="testimonial">
         <div className="container">
+          <Testimonial />
           <div className="left-text">
             {parse(testimonialSection.content)}
           </div>
-          <Testimonial />
         </div>
       </section>
+
       <section id="product">
         <Tronketiga />
       </section>
       <Tronkeempat />
+
       {/* faq */}
       <section id="faq">
         <div className="marketing">

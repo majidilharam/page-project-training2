@@ -5,7 +5,9 @@ import { useState } from "react";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
+    const handleLinkClick = () => {
+        setIsOpen(false);
+    }
     return (
         <nav>
             <div className="ini-logo">
@@ -17,12 +19,12 @@ function Navbar() {
             </div>
 
             <ul className={`nav-links ${isOpen ? "active" : ""}`}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#feature">Feature</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#home" onClick={handleLinkClick}>Home</a></li>
+                <li><a href="#service" onClick={handleLinkClick}>Service</a></li>
+                <li><a href="#feature" onClick={handleLinkClick}>Feature</a></li>
+                <li><a href="#product" onClick={handleLinkClick}>Product</a></li>
+                <li><a href="#testimonial" onClick={handleLinkClick}>Testimonial</a></li>
+                <li><a href="#faq" onClick={handleLinkClick}>FAQ</a></li>
             </ul>
 
             <div className="ini-button">
