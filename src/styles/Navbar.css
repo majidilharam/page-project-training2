@@ -5,7 +5,6 @@ nav {
   padding: 20px 50px;
   background-color: #f9fafb;
   position: fixed;
-  /* biar ikut scroll */
   top: 0;
   left: 0;
   right: 0;
@@ -76,7 +75,7 @@ nav {
   background-color: #218838;
 }
 
-/* === MENU TOGGLE === */
+
 .menu-toggle {
   display: none;
   font-size: 28px;
@@ -84,7 +83,7 @@ nav {
   cursor: pointer;
 }
 
-/* === RESPONSIF === */
+
 @media (max-width: 1024px) {
   nav {
     padding: 15px 30px;
@@ -105,9 +104,10 @@ nav {
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     top: 70px;
     right: 0;
+    left: 0;
     width: 100%;
     background: white;
     flex-direction: column;
@@ -115,11 +115,12 @@ nav {
     gap: 20px;
     padding: 20px 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    display: none;
+    transform: translate(100%);
+    transition: transform 0.3s ease-in-out;
   }
 
   .nav-links.active {
-    display: flex;
+    transform: translate(0);
   }
 
   .ini-button {
@@ -128,5 +129,6 @@ nav {
 
   .menu-toggle {
     display: block;
+    z-index: 1100;
   }
 }
