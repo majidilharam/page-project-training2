@@ -1,7 +1,7 @@
-import icon1 from '../assets/icon/icon-4.png'
-import icon2 from '../assets/icon/icon-5.png'
-import icon3 from '../assets/icon/icon-6.png'
-import icon4 from '../assets/icon/icon-7.png'
+import icon1 from '../assets/icon/Icon-4.png'
+import icon2 from '../assets/icon/Icon-5.png'
+import icon3 from '../assets/icon/Icon-6.png'
+import icon4 from '../assets/icon/Icon-7.png'
 
 
 
