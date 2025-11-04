@@ -33,43 +33,78 @@
 }
 
 .service-list img {
-  width: 60px;
+  width: 80px;
 }
 
 
-@media(max-width:992px) {
-  #service {
-    padding: 60px 0;
+@media (max-width: 1024px) {
+  .home-base {
+    padding: 30px 80px;
   }
 
   .home-base h1 {
-    font-size: 1.8rem;
+    font-size: 32px;
+    line-height: 40px;
   }
 
   .home-base p {
-    font-size: 0.95rem;
+    font-size: 15px;
+  }
+
+  .service-list {
+    gap: 120px;
+  }
+
+  .service-list img {
+    width: 70px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .home-base {
+    padding: 25px 40px;
+  }
+
+  .home-base h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .home-base p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .service-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  .service-list img {
+    width: 60px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .home-base {
+    padding: 20px 24px;
+  }
+
+  .home-base h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .home-base p {
+    font-size: 13px;
+    line-height: 20px;
   }
 
   .service-list {
     gap: 40px;
-  }
-
-  .service-list img {
-    width: 80px;
-  }
-}
-
-@media (max-width:768px) {
-  #service {
-    padding: 50px 0;
-  }
-
-  .home-base h1 {
-    font-size: 1.6rem;
-  }
-
-  .service-list {
-    gap: 20px;
   }
 
   .service-list img {
